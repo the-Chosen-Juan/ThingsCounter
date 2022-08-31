@@ -40,13 +40,26 @@ p{
 }
 
 #increment-btn {
-    background: rgb(216, 0, 0);
+    background: black;
+
+}
+
+#increment-btn:hover {
+    background: white;
+    color: black;
 }
 
 #reset-btn {
-    background: rgb(0, 14, 214);
+    background: black;
+    animation-duration: 3s;
+}
+
+#reset-btn:hover {
+    background: white;
+    color: black;
 }
 
 #save-btn {
-    background: rgb(0, 161, 0);
+    background: white;
+    color: black;
 }
